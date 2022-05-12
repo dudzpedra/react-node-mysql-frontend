@@ -1,0 +1,44 @@
+.videos-wrapper
+  margin: 0 auto
+  width: 90%
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+  h1
+    margin: 0
+    padding: 1rem 0
+    letter-spacing: 4px
+
+  .videos-grid
+    display: flex
+    flex-wrap: wrap
+    margin: 1rem auto
+
+    .video-card
+      padding: 0.5rem 1rem
+      width: 35%
+      margin: 1rem auto
+      border: 1px solid #181818
+      box-shadow: 0px
+      transition: .5s
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      text-align: center
+      transition: .4s
+
+      h2
+        letter-spacing: 3px
+        
+      h3
+        letter-spacing: 2px
+
+      &:hover
+        color: #561760
+        border: 1px solid #561760
+        cursor: pointer
+        transform: scale(1.1)
+        box-shadow: 0 0 8px 4px #971fa7
